@@ -6,3 +6,7 @@ Adds
 A new job type that sends reminders to connectors with a list of open connection reqeusts
 
 A new system email for that job type
+
+V2
+- Added additional job settings
+- Update the Email to include more information.
