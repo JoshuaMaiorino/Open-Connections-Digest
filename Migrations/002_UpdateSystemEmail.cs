@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Rock.Plugin;
 
-namespace ourcitychurch.org.Jobs.Migrations
+namespace com.bemaservices.Jobs.Migrations
 {
 	[MigrationNumber(2, "1.7.0")]
 	public class UpdateSystemEmail : Migration

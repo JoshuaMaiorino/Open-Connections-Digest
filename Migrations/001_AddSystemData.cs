@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Rock.Plugin;
 
-namespace ourcitychurch.org.Jobs.Migrations
+namespace com.bemaservices.Jobs.Migrations
 {
 	[MigrationNumber(1, "1.7.0")]
 	public class AddSystemData : Migration
@@ -87,7 +87,7 @@ namespace ourcitychurch.org.Jobs.Migrations
 				,0
 				,'Send Open Connection Requests Digest'
 				,'Sends out a system email to all connectors in the selected group that have active or future follow up past due connection requests.'
-				,'org.ourcitychurch.Jobs.ConnectionRequestEmailDigest'
+				,'com.bemaservices.Jobs.ConnectionRequestEmailDigest'
 				,'0 0 14 ? * WED *'
 				,3
 				,'FB3D3CD1-1AA7-4130-B102-43C05D296364'

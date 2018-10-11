@@ -13,7 +13,7 @@ using Rock.Model;
 using Rock.Web.Cache;
 
 
-namespace org.ourcitychurch.Jobs
+namespace com.bemaservices.Jobs
 {
 	[GroupField("Connection Group","Members of this group who are connectors of any opportunity with connections assigned will be emailed.",false, null ,null,1)]
     [CustomCheckboxListField( "Connection Opportunities", "Select the connection opportunities you would like to include.", "SELECT Guid AS Value, Name AS Text FROM ConnectionOpportunity WHERE IsActive = 1;" )]
